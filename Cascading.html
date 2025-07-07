@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Cascading Effects
+        </title>
+        <style>
+            body{
+                background-image: url('wallpaper.jpg');
+                background-position: top right;
+                background-image: linear-gradient(purple,red, orange, yellow);
+                background-attachment: fixed;
+            }
+            @keyframes Opposite{
+                10%{color: green;}
+                25%{color: blue;}
+                50%{color: red;}
+                75%{color: yellow;}
+            }
+            h1{
+                width: 200px;
+                height: 100px;
+                animation-name: Opposite;
+                animation-duration: 30s;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            These are cascading effects ➡️
+        </h1>
+    </body>
+</html>
